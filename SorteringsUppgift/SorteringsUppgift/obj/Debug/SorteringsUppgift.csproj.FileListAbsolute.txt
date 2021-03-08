@@ -1,0 +1,7 @@
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\bin\Debug\SorteringsUppgift.exe.config
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\bin\Debug\SorteringsUppgift.exe
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\bin\Debug\SorteringsUppgift.pdb
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\obj\Debug\SorteringsUppgift.csprojAssemblyReference.cache
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\obj\Debug\SorteringsUppgift.csproj.CoreCompileInputs.cache
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\obj\Debug\SorteringsUppgift.exe
+C:\Users\alni03002\source\repos\Sorteringsalgoritm\SorteringsUppgift\SorteringsUppgift\obj\Debug\SorteringsUppgift.pdb
