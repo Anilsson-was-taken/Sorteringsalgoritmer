@@ -12,34 +12,35 @@ namespace SorteringsUppgift
 {
     class Program
     {
-        static void Bubblesort(List<int> myList)
+
+        static void Selectionsort(List<int> myList)
         {
-
-            for (int i = 0; i < myList.Count; i++) // räkna antal genomgångar
+            int temp, smallest;
+            for (int i = 0; i < myList.Count - 1; i++)
             {
-
-                for (int j = 0; j < myList.Count - 1; j++) //går igenom alla element (-1 så den inte försöker gå igeom den sista med en till som inte existerar)
+                smallest = i;
+                for (int j = i + 1; j < myList.Count; j++)
                 {
-
-                    if (myList[j] > myList[j + 1])
+                    if (myList[j] < myList[smallest])
                     {
-
-                        //byt plats på myLIst[j] och myList [j+1]
-                        int temp = myList[j];
-                        myList[j] = myList[j + 1];
-                        myList[j + 1] = temp;
+                        smallest = j;
                     }
                 }
+                temp = myList[smallest];
+                myList[smallest] = myList[i];
+                myList[i] = temp;
             }
         }
-        static void SkapaSlumpLista(List<int> myList, int size)
+    }
+
+    static void SkapaSlumpLista(List<int> myList, int size)
+    {
+        Random slump = new Random();
+        for (int i = 0; i < size; i++) //skapar ett stort antal slumptal i listan
         {
-            Random slump = new Random();
-            for (int i = 0; i < size; i++) //skapar ett stort antal slumptal i listan
-            {
-                myList.Add(slump.Next(100000));
-            }
+            myList.Add(slump.Next(100000));
         }
+    }    
         static void Main(string[] args)
         {
             List<int> tallista10 = new List<int>();
